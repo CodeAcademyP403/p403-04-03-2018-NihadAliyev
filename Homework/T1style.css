@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+     }
+      li{
+          list-style-type: none;
+      }
+      .container{
+          width: 90%;
+          margin: auto;
+      }
+      .clearfix{
+          clear: both;
+      }
+/* Navigation */
+nav{
+    height: 33px;
+    margin-top: 1%;
+
+}
+nav .brooklyn{
+    width: 50%;
+    float: left;
+}
+nav .menu{
+    width: 50%;
+    float: left;
+}
+nav .menu li{
+    float: left;
+}
+nav .menu li a{
+    padding: 18px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+nav .menu li a:hover{
+    color: lightcoral;
+    font-size: 0.9em;
+    transition: .4s;
+}
+/* END OF NAVIGATION */
+/* HEAD STARTS HERE */
+.Head .container{
+    height: 300px;
+    background-image: url("kid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .Head h1{
+        text-align: left;
+        font-size: 7em;
+        color: white;
+        margin-left: 100px;
+    }
+    .Head span{
+        color: rgb(252, 180, 86);
+    }
+    .Head h4{
+        color: white;
+        letter-spacing: 5px;
+        margin-left: 93px;
+        font-size: 1.5em;
+    }
+    .Head i{
+        font-size: 2em;
+        color: white;
+        padding-left: 29%;
+    padding-top: 6%;
+    }
+    /* end of Head */
+    /* Foot starts here */
+.Foot{
+    margin-top: 50px;
+    width: 30%;
+}
+.Foot .Your{
+    width: 90%;
+    padding-bottom: 50px;
+    color:rgb(150, 148, 148);
+}
+.Foot h5{
+    color: rgb(175, 166, 166);
+    text-transform: uppercase;
+    margin-bottom: 3%;
+
+}
+.Foot h3{
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+.Foot .border{
+    width: 30px;
+    border-bottom: 2px solid orange;
+}
+.Foot h6{
+    font-size: 0.8em;
+    width: 83%;
+    margin-top: 20px;
+}
+.Foot{
+    float: left;
+}
+.Rightbottom{
+    margin-top: 90px;
+    color: rgb(240, 171, 42);
+    font-size: 4em;
+    float: left;
+    width: 70%;
+    
+}
+.Rightbottom h4{
+    color: black;
+    font-size: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Rightbottom .Mobile{
+    float: left;
+    margin: 0% 10%;
+    
+}
+.Rightbottom i{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.Rightbottom .Apps{
+    float: left;
+    margin: 0% 10%;
+}
+.Rightbottom .cloud{
+    float: left;
+    margin: 0% 10%;
+}
+.Rightbottom .cloud h4{
+    padding-left: 25px;
+}
