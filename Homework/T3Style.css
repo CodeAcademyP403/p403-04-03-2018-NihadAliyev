@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    
+}
+body{
+    background-image: url("stones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+}
+nav .Spoons{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+nav .Spoons img{
+    margin-left: 20%;
+    margin-top: 4%;
+    width: 126px;
+}
+nav .Menu{
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+nav .Menu li{
+    float: left;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+nav .Menu li a{
+    color: #555;
+}
+nav .Menu li a:hover{
+    color: rgb(224, 147, 46);
+    transition: .4s;
+}
+nav .Menu li .Borders{
+    border-left: 1.5px solid #555;
+    border-right: 1.5px solid #555;
+    padding: 0 15px;
+}
+
+nav .Menu button{
+    float: left;
+    margin-top: 3.3%;
+    margin-left: 5%;
+    padding: 7px 20px;
+    background-color: rgba(255, 166, 0, 0.986);
+    color: white;
+    border: 1px solid rgba(255, 166, 0, 0.795);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav .Menu button:active{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+nav .Menu button:hover{
+    cursor: pointer;
+}
+.Border{
+    border-bottom: 4px solid rgb(245, 242, 242);
+    width: 50%;
+
+}
+/* here we begin the main part */
+.Main{
+    position: relative;
+}
+.Main h1{
+    margin-top: 12%;
+    margin-left:12%;
+    font-size: 4em;
+    letter-spacing: 2px;
+    color: rgb(39, 36, 36);
+}
+.Main h4{
+    margin: 1% 12%;
+    color: rgb(248, 234, 234);
+    letter-spacing: 3px;
+}
+.Main button{
+    margin-left: 12%;
+    padding: 11px 28px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border: 1.5px solid grey;
+    color: grey;
+    box-shadow: rgba(177, 166, 166, 0.5);
+    letter-spacing: 2px;
+}
+.Main button:active{
+    box-shadow: none;
+    background-color: rgb(172, 169, 169);
+    color: white;
+    
+}
+.Main button:hover{
+    cursor: pointer;
+}
+.Settings{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    background-color: rgba(245, 240, 240, 0.5);
+    padding: 5px;
+    color: grey;
+    }
+    .Last{
+    position: fixed;
+    bottom: 3%;
+    left: 19px;
+    color: white;
+}
+    .dot2{
+    position: fixed;
+    /* bottom: 1%; */
+    left: 39px;
+    background-color: white;
+    border-radius: 100%;
+}
+    .dot3{
+    position: fixed;
+    left: 61px;
+}
