@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    list-style-type: none;
+    
+    }
+    clearfix{
+        clear: both;
+    }
+    body{
+        background-image: url("body.jpg");
+        width: 100%;
+        height: 700px;
+    }
+    .container{
+        margin: 0.5% 3%;
+        background-color: azure;
+        height: 100%;
+    }
+    /* Header */
+    .header{
+        text-align: center;
+    }
+    .header h1{
+        font-size: 3em;
+    }
+    .header h4{
+        margin-bottom: 0.5%;
+    }
+    /* Navigation bar */
+    nav ul{
+        text-align: center;
+        margin-left: 28%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(22, 21, 21, 0.534);
+        /* margin-bottom: 1%; */
+    }
+    nav li{
+        float: left;
+        text-align: center;
+        margin-left: 2%;
+        /* margin-bottom: 1%; */
+        }
+        nav li a{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(12, 12, 12, 0.815);
+        /* margin-bottom: 1%; */
+        }
+        nav li a:hover{
+            color: aqua;
+            transition: 0.5s;
+        }
+        /* First class starts here */
+        
+
+        .First{
+            height: 280px;
+            width: 100%;
+            position: relative;
+        }
+        .FirstLeft i{
+            position: absolute;
+            left: 20%;
+            top: 65%;
+            color: rgb(231, 220, 220);
+            font-size: 3em;
+        }
+
+        .FirstLeft img{
+            margin-left: 23%;
+            margin-top: 20px;
+            width: 25%;
+            height: 255px;
+            float: left;
+        }
+        .FirstRight{
+            margin-top: 10px;
+            float: left;
+            width: 45%;
+            margin-left: 3%;
+            padding-right: 16%;
+        }
+        .FirstRight h4{
+            margin-bottom: 3%;
+        }
+        .FirstRight button{
+            color: white;
+            background-color: turquoise;
+            padding: 2px 4px;
+            border: 1px solid turquoise;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+        .FirstRight i{
+            position: absolute;
+            right: 20%;
+            top: 65%;
+            color: rgb(231, 220, 220);
+            font-size: 3em;
+        }
+        /* Second */
+        .Second{
+            margin-top: 20px;
+        }
+        .SecondLeft{
+            margin-left: 23%;
+            margin-top: 20px;
+            width: 25%;
+            height: 260px;
+            float: left;
+            background-image: url("longway.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(199, 197, 194);
+            
+            
+        }
+        .SecondLeft h2{
+            text-align: center;
+            margin: 4% 0%;
+        }
+        .SecondLeft .border{
+            border-bottom: 1px solid white;
+            width: 20%;
+            margin: 4% 40%;
+            /* text-align: center; */
+        }
+        .SecondLeft i{
+            float: left;
+            text-align: center;
+            margin-left: 16%;
+            margin-right: 2%;
+        }
+        .SecondLeft h5{
+            float: left;
+        }
+        .SecondRight{
+            margin-left: 3%;
+            margin-top: 20px;
+            width: 25%;
+            height: 260px;
+            float: left;
+            background-image: url("fisherman.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: whitesmoke;
+         }
+        .SecondRight h2{
+            text-align: center;
+            margin: 4% 0%;
+        }
+        .SecondRight .border{
+            border-bottom: 1px solid white;
+            width: 20%;
+            margin: 4% 40%;
+            
+        }
+        .SecondRight i{
+            float: left;
+            text-align: center;
+            margin-left: 16%;
+            margin-right: 2%;
+        }
+        .SecondRight h5{
+            float: left;
+        }
